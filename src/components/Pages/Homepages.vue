@@ -157,9 +157,9 @@ watch(productlocation, () => {
    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-1 Header Corusel~~~~~~~~~~~~~~~~~~~~~~~~~~~~ --> 
  <section class="Section-1">
     <article class="text-white text-center flex flex-col gap-2 px-[10px] relative z-0">
-    <h1 class="mx-auto text-[24px] relative z-[1] tracking-[5px] mt-[25px] p992:mt-[130px] leading-[50px] font-[Merriweather-Regular] font-semibold max-w-[640px] p768:text-[34px]">{{$t('TOP LUXURY CAR RENTAL EMIRATES')}} <br> №<span class="font-mono">1</span></h1>
+    <h1 class="mx-auto text-[24px] relative z-[1] tracking-[5px] mt-[25px] p992:mt-[100px] leading-[50px] font-[Merriweather-Regular] font-semibold max-w-[840px]  p768:text-[34px]">{{$t('TOP LUXURY CAR RENTAL EMIRATES')}} <br> №<span class="font-mono">1</span></h1>
    <h3 class="text-[#ffffff] relative z-[1] ">{{ $t('Best sports car & supercar rental Emirates, Exclusive offers on luxury car rental Emirates Cheap price') }}</h3>
-    <RouterLink to="/avto" @click="CounterStore.fletchallcard()" class="btnRuB flex items-center text-[12px] mx-auto max-w-[400px] gap-2 relative z-[1] p992:text-[16px] mt-[30px]"><p>{{ $t('RENT A CAR EMIRATES CATALOG') }}</p>
+    <RouterLink to="/avto" @click="CounterStore.fletchallcard()" class="btnRuB flex items-center text-[12px] mx-auto max-w-[400px] gap-2 relative z-[1] p992:text-[16px] mt-[15px]"><p>{{ $t('RENT A CAR EMIRATES CATALOG') }}</p>
       <svg class="imgbtn ml-[0px] " width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path class="path" d="M13 10L21 16.5L13 23L17.5714 16.5L13 10Z"  ></path>
         <circle class="circle" cx="16" cy="16" r="15.5" ></circle></svg></RouterLink>
