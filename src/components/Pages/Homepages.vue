@@ -203,12 +203,8 @@ watch(productlocation, () => {
     <div class="blog-1movie   p768:flex">
 
     <div class="movie   mx-auto   p992:w-[57%]  p992:absolute p992:left-0  p992:min-h-[400px]">
-  <iframe class="w-full  h-[250px]  p768:h-[500px]"
-    src="https://www.youtube.com/embed/6Bcg46rxqAE?si=oUOIn81REX0sL4RT&start=2"
-    frameborder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-</iframe>
+n
+<iframe class="w-full  h-[250px]  p768:h-[500px]"  src="https://www.youtube.com/embed/rsHmvxJ86PA" title="Terra-rentacar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <article class="max-w-[440px] ml-auto mr-auto w-full mt-[20px]  p768:mt-0 text-center p768:text-left p768:ml-auto p768:mr-0  text-white">
