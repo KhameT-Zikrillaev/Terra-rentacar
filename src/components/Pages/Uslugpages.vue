@@ -6,7 +6,8 @@
 
     <div class="uslug__con flex flex-wrap gap-6">
 
-         <div class="uslug__con-card  p-2 p768:w-[360px]">
+         <div data-aos="fade-right"
+          data-aos-offset="70" class="uslug__con-card  p-2 p768:w-[360px]">
           <img class="mx-auto p768:mx-0" src="@/assets/images/uslug-1.jpg" alt="">
           <h4 class="text-white text-[24px] my-[25px] font-semibold leading-[100%]">{{ $t('Ride a buggy in Dubai and have fun') }}</h4>
           <p class="text-white text-[18px] leading-[160%] mb-[40px]">{{ $t('Experience the thrill of a dune buggy tour in Dubai with us. We offer free hotel pick-up & drop-off service. Book now') }}</p>
@@ -14,10 +15,11 @@
           <RouterLink to="/uslugbuggies" class="linkuslug flex items-center justify-evenly w-[200px] hover:ml-4"><p class="text-white font-bold">{{$t('LEARN MORE')}}</p> <img src="@/assets/icon/strella.svg" alt=""></RouterLink>
          </div>
 
-         <div class="uslug__con-card  p-2 p768:w-[360px]">
+         <div data-aos="fade-left"
+          data-aos-offset="70" class="uslug__con-card  p-2 p768:w-[360px]">
           <img class="mx-auto p768:mx-0" src="@/assets/images/uslug-2.jpg" alt="">
           <h4 class="text-white text-[24px] my-[25px] font-semibold leading-[100%]">{{$t('Photoshoot with luxury car rental Dubai')}}</h4>
-          <p class="text-white text-[18px] leading-[160%] mb-[40px]">{{ $t('Professional car photoshoot as an additional type of service at Auto Zoom Car Rental') }}</p>
+          <p class="text-white text-[18px] leading-[160%] mb-[40px]">{{ $t('Professional car photoshoot as an additional type of service at Terra Car Rental') }}</p>
 
           <RouterLink to="/uslugcar" class="linkuslug flex items-center justify-evenly w-[200px] hover:ml-4"><p class="text-white font-bold">{{$t('LEARN MORE')}}</p> <img src="@/assets/icon/strella.svg" alt=""></RouterLink>
          </div>

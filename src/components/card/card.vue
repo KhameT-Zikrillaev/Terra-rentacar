@@ -14,8 +14,10 @@ const props =defineProps({
 <template>
     <div :class="`card min-h-[450px] p768:w-[300px] py-[30px] px-[15px] flex flex-col justify-between rounded-2xl`"
     :style="bg"
+    data-aos="fade-up"
+    data-aos-offset="100"
     >
-   <img class="mt-[25px] w-[265px]" :src="'https://realauto.limsa.uz/api/uploads/images/' + car?.car_images[0].image.src" alt="">
+   <img class="mt-[25px] w-[265px] mx-auto" :src="'https://realauto.limsa.uz/api/uploads/images/' + car?.car_images[0].image.src" alt="">
    <div class="card__article flex flex-col gap-2">
      <h3 class="text-white text-[19px] font-mono ml-[5px]">{{ car?.brand?.title }}  {{ car?.model.name }}</h3>
       <div class="liniya bg-white w-full h-[1px]"></div>

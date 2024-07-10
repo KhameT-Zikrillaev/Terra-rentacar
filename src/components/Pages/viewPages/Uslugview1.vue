@@ -12,7 +12,8 @@ CounterStore.scrollTop()
     <h3 class="text-white text-[32px] text-center p768:text-left my-[10px] p768:my-[50px] mx-2 font-semibold">{{ $t('Ride a buggy in Dubai and have fun') }}</h3>
     <div class="card-con flex  gap-2 flex-wrap justify-center p1200:justify-between p-2">
 
-        <div class="cards w-[300px] p768:w-[380px]  rounded-lg pb-[25px]">
+        <div data-aos="fade-right"
+          data-aos-offset="20" class="cards w-[300px] p768:w-[380px]  rounded-lg pb-[25px]">
           <img class="w-full h-[230px] rounded-lg" src="@/assets/images/uslug-sport-1.jpg" alt="">
           <div class="text-container px-[25px]">
 
@@ -33,7 +34,8 @@ CounterStore.scrollTop()
         </div>
 
 
-        <div class="cards w-[300px] p768:w-[380px]  rounded-lg pb-[25px]">
+        <div data-aos="fade-up"
+          data-aos-offset="20" class="cards w-[300px] p768:w-[380px]  rounded-lg pb-[25px]">
           <img class="w-full h-[230px] rounded-lg" src="@/assets/images/uslug-sport-2.jpg" alt="">
           <div class="text-container px-[25px]">
 
@@ -53,7 +55,8 @@ CounterStore.scrollTop()
          
         </div>
 
-        <div class="cards w-[300px] p768:w-[380px]  rounded-lg pb-[25px]">
+        <div data-aos="fade-left"
+          data-aos-offset="20" class="cards w-[300px] p768:w-[380px]  rounded-lg pb-[25px]">
           <img class="w-full h-[230px] rounded-lg" src="@/assets/images/uslug-sport-3.jpg" alt="">
           <div class="text-container px-[25px]">
 

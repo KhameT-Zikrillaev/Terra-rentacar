@@ -12,7 +12,7 @@ import swiperIntro from "@/components/swiper/swiperIntro.vue"
 import Faq from "@/components/Pages/Faqpages.vue"
 import Uslug from "@/components/Pages/Uslugpages.vue"
 import Brand from "@/components/Pages/Brandpages.vue"
-
+CounterStore.scrollTop()
 import { ref, onMounted, watch } from "vue";
 CounterStore.searchactive = false
 // ~~~~~~~~~~~~~~~~~~~~~images photos~~~~~~~~~~~~~~~~~~~~
@@ -187,8 +187,8 @@ watch(productlocation, () => {
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-4 Article~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <section class="Section-5 bg-[#272933] relative">
 <div class="container text-white  p-[15px] p768:py-[70px] p768:px-[10px] relative z-[1]">
-  <h3 class="text-[28px]  p768:text-[40px] font-semibold">{{$t('LUXURY CAR RENTAL IN DUBAI')}}</h3>
-  <p class="leading-[30px]  p768:mt-[15px]">{{ $t('Are you ready to feel the adrenaline rush and unleash your inner speed demon? Look no further than Auto Zoom luxury car rental Dubai, the city where dreams become reality. In this ultimate guide to sports car rental Dubai, we will take you on a thrilling journey through the world of luxury and supercar rental Dubai. Imagine cruising down the iconic Sheikh Zayed Road in a sleek and powerful sports car rental Dubai style, turning heads and leaving everyone in awe of your style. Whether you are a car enthusiast or simply looking to') }}</p>
+  <h3 class="text-[28px]  p768:text-[40px] font-semibold">{{$t('LUXURY CAR RENTAL IN EMIRATES')}}</h3>
+  <p class="leading-[30px]  p768:mt-[15px]">{{ $t('Are you ready to feel the adrenaline rush and unleash your inner speed demon? Look no further than Terra luxury car rental Dubai, the city where dreams become reality. In this ultimate guide to sports car rental Dubai, we will take you on a thrilling journey through the world of luxury and supercar rental Dubai. Imagine cruising down the iconic Sheikh Zayed Road in a sleek and powerful sports car rental Dubai style, turning heads and leaving everyone in awe of your style. Whether you are a car enthusiast or simply looking to') }}</p>
 
   <h3 class="text-[28px]  p768:text-[40px] font-semibold mt-[30px]">{{$t('What are the requirements to rent a luxury car in Dubai?')}}</h3>
   <p class="leading-[30px]  p768:mt-[15px]">{{ $t("To rent a car Dubai, it's enough to have a valid driving license and enough funds. & you'll need to show your foreign passport and prove that you have come of age and have driving experience.The age limit and the requirements for the license depend on where you're from. Visitors from Europe, the UK, the US and the Middle East can drive with their national licenses. People from other parts of the world need an international license. The age limit for the driver might vary from 21 to 25 years. Please get in touch with us before placing an order to discuss your individual situation.Cars in the UAE have steering wheels on the left side. Drivers stick to the right side of the road.If needed, you can add a second driver to your rental contract. The requirements for this person will be the same as for the first driver. If you let someone who isn't mentioned in your rental contract take a place behind the wheel, you can get a fine.The duration of a premium car rental in Dubai can vary from one day to several weeks. Discounts are common for luxury car rental Dubai monthly car rental plan. Use this chance to have fun, increase your high social status and please your dearest and nearest!Please avoid smoking inside the rented vehicle.") }}</p>
@@ -213,7 +213,7 @@ watch(productlocation, () => {
 
 <article class="max-w-[440px] ml-auto mr-auto w-full mt-[20px]  p768:mt-0 text-center p768:text-left p768:ml-auto p768:mr-0  text-white">
  <h3 class=" text-[28px]  p768:text-[38px] leading-[40px] tracking-[1px] relative z-[2]">{{ $t('SPORTS CAR RENTAL DUBAI') }}</h3>
- <p class="text-[20px] mt-[10px] leading-[30px] tracking-[1.2px] relative z-[2] ">{{ $t('Auto Zoom L L C a Car is a Top Luxury Car Rental Dubai based company, We offer sports car rental, and supercar rental in Dubai. The best luxury car rental process provided by our fleet . We own a diverse range of luxury supercar rental and sports car rental Dubai style , including Rolls Royce, Lamborghini, Maserati, Ferrari, Mercedes Benz, Porsche, and Range Rover, to name a few. Rent a car with the best car rental company in Dubai.') }}</p>
+ <p class="text-[20px] mt-[10px] leading-[30px] tracking-[1.2px] relative z-[2] ">{{ $t('Terra L L C a Car is a Top Luxury Car Rental Dubai based company, We offer sports car rental, and supercar rental in Dubai. The best luxury car rental process provided by our fleet . We own a diverse range of luxury supercar rental and sports car rental Dubai style , including Rolls Royce, Lamborghini, Maserati, Ferrari, Mercedes Benz, Porsche, and Range Rover, to name a few. Rent a car with the best car rental company in Dubai.') }}</p>
  <div class="mx-auto w-full flex justify-center p768:justify-start">
   <RouterLink to="/avto" @click="CounterStore.fletchallcard()" class="btnRuB  relative z-[2] flex items-center text-[12px] gap-2 p992:text-[18px] mt-[30px]">
   <p>{{$t('ALL CARS')}}</p>
@@ -262,7 +262,8 @@ watch(productlocation, () => {
 
 <section class="Section-8 bg-[#1E1F27] py-[10px] p768:py-[35px] px-[30px]">
   <div class="container">
-    <h3 class="p320:text-2xl p768:text-3xl font-semibold text-white">{{ $t('FOLLOW US ON INSTAGRAM') }}</h3>
+    <h3 data-aos="fade-left"
+          data-aos-offset="100"  class="p320:text-2xl p768:text-3xl font-semibold text-white">{{ $t('FOLLOW US ON INSTAGRAM') }}</h3>
     <swiper
   :slidesPerView="2"
   :breakpoints="breakpoints2"
@@ -272,6 +273,8 @@ watch(productlocation, () => {
    :spaceBetween="10"
     :modules="modules"
     class="mySwiperImages p320:px-[25px] p992:px-[0px]"
+    data-aos="fade-up"
+    data-aos-offset="100"
   >
     <swiper-slide class="swiper-slideImages hover:" v-for="item in photos" :key="item" @click="screenModal = true,changeImages(item.images)" >
     <img class="imgstatic cursor-pointer object-center w-[100%] p480:w-[100%] h-[100%]" :src="item.images" alt=""></swiper-slide>

@@ -57,7 +57,7 @@ watch(product, () => {
 
             <div class="col-span-1 footer__box-card-1">
                 <img class="w-[110px] mx-auto p768:mx-0" src="@/assets/icon/logoTerra5.png" alt="">
-                <h3 class="text-[30px] text-white max-w-[256px]  font-bold pt-[15px]  p480:pt-[30px] leading-[100%] mx-auto text-center   p768:mx-0 p768:text-left p1024:text-[32px]">{{ $t('LUXURY CAR RENTAL IN DUBAI') }}</h3>
+                <h3 class="text-[30px] text-white max-w-[256px]  font-bold pt-[15px]  p480:pt-[30px] leading-[100%] mx-auto text-center   p768:mx-0 p768:text-left p1024:text-[32px]">{{ $t('LUXURY CAR RENTAL IN EMIRATES') }}</h3>
                 <p class="text-[18px] p480:text-[14px] max-w-[256px] text-[#fff9] mt-[15px] p480:mt-[50px] text-center mx-auto p768:mx-0 p768:text-left">{{ $t('Rent sports and luxury cars directly without intermediaries. Rent a car in Dubai with Auto Zoom Car Rental - safety and driving pleasure') }}</p> 
             </div>
             

@@ -88,7 +88,9 @@ const bordercard = "border:1px solid transparent"
   <div class="swiperPages">
     <div v-if="$i18n.locale === 'en'">
     <div class="container p-2" v-for="(cars, category) in groupedCars" :key="category">
-      <div class="links text-white text-center p480:flex items-center my-[30px] w-full justify-between">
+      <div data-aos="fade-right"
+          data-aos-offset="100"
+       class="links text-white text-center p480:flex items-center my-[30px] w-full justify-between">
         <h3 class="text-[25px] p768:text-[35px] mt-[15px] uppercase " >{{ category }}</h3>
         <RouterLink
           to="/avto"  @click="CounterStore.viewmodels(cars)"
