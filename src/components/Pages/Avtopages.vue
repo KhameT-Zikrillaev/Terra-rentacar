@@ -135,7 +135,7 @@ function resetinputes(){
 
 
 <template >
-<div class="avtopages bg-[#1E1F27] py-6  relative p992:flex ">
+<div class="avtopages bg-[#1E1F27] py-6  min-h-[1400px] relative p992:flex">
    <button class="p992:hidden cursor-pointer" @click="btnfilter = true"><img  src="@/assets/icon/static.svg" alt=""></button>
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LEFT~~~~~~~~~~~~~~~~~~ -->
     <div class="avto__left absolute  h-full z-[3]  top-0 mt-[2px] p992:mt-[0px] w-full p992:w-[380px] p992:static p992:h-[100%] "

@@ -50,8 +50,7 @@ watch(product, () => {
 </script>
 
 <template>
-    <footer class="footer bg-[#111219]  p480:pt-[50px] pb-[100px] relative">
-     
+    <footer class="footer bg-[#111219]  p480:pt-[50px] pb-[100px] relative z-[1]">
         <div class="container relative z-[1]">
           <div class="footer__box grid grid-cols-1 gap-2  p768:grid-cols-3 p1024:grid-cols-4 p-4">
 
